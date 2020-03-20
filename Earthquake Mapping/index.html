@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Earthquake Activity</title>
+
+  <!-- Leaflet CSS & JS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.3/dist/leaflet.css"
+  integrity="sha512-Rksm5RenBEKSKFjgI3a41vrjkw4EVPlJ3+OiI65vTjIdo9brlAacEuKOiQ5OFh7cOI1bkDwLqdLw3Zg0cRJAAQ=="
+  crossorigin=""/>
+  <script src="https://unpkg.com/leaflet@1.3.3/dist/leaflet.js"
+  integrity="sha512-tAGcCfR4Sc5ZP5ZoVz0quoZDYX5aCtEm/eu1KhSLj2c9eFrylXZknQYmxUssFaVJKvvc0dJQixhGjG2yXWiV9Q=="
+  crossorigin=""></script>
+
+  <!--D3 cdn-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
+
+  <!-- Our CSS -->
+  <link rel="stylesheet" type="text/css" href="static/css/style.css">
+</head>
+
+<body>
+  <!-- Our CSS -->
+  <link rel="stylesheet" type="text/css" href="static/css/style.css">
+</head>
+<body>
+  <div class="well">
+      <h3>Earthquake - Week or Month Data</h3>
+      <select id="selDataset" onchange="optionChanged(this.value)"></select>
+  </div>
+  <div id="map"></div>
+  
+  <!-- The div that holds our map -->
+  <div id="map"></div>
+
+  <!-- API key -->
+  <script type="text/javascript" src="./static/js/config.js"></script>
+  <!-- Our JS -->
+  <!-- <script type="text/javascript" src="Leaflet-Step-1/logic1.js"></script> -->
+  <script type="text/javascript" src="./static/js/logic.js"></script>
+</body>
+</html>
